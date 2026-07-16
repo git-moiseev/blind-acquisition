@@ -1,0 +1,45 @@
+# 9. Discussion
+
+The waveform presented in this paper should be regarded as one possible realization of a more general design philosophy rather than as a unique solution.
+
+The central objective is to minimize the computational effort required for blind detection by reducing receiver uncertainty in successive stages.
+
+The proposed implementation achieves this objective through continuous transmission, constant transmitted power, narrow occupied bandwidth, deterministic frequency geometry, and deterministic temporal structure.
+
+None of these individual design choices is new.
+
+Continuous carriers, frequency-shift keying, packet repetition, and complementary coding are all well-established techniques.
+
+The novelty of the proposed approach lies in their organization.
+
+Rather than optimizing individual waveform components independently, the proposed design treats them as successive sources of observable information.
+
+Each newly observable property is introduced only after the receiver has completed the previous stage of discovery.
+
+This sequential disclosure reduces the dimensionality of the remaining estimation problem while preserving a simple transmitted waveform.
+
+An interesting theoretical question concerns the minimum amount of structural information required for blind discovery.
+
+The proposed waveform employs exactly two frequency states.
+
+A single frequency state provides no internal frequency reference, while additional frequency states increase waveform complexity and occupied bandwidth.
+
+This suggests that two frequency states may represent the simplest spectral geometry capable of supporting Doppler estimation through internal signal structure.
+
+The present work does not attempt to prove this conjecture.
+
+Instead, it proposes a waveform that appears to satisfy this principle while maintaining continuous transmission, constant power, and narrow occupied bandwidth.
+
+Whether this minimality can be established formally remains an open question for future research.
+
+More generally, the proposed waveform should be viewed as an example rather than a final design.
+
+Alternative waveform architectures may satisfy the same design principles while exhibiting different trade-offs between bandwidth, observation time, synchronization latency, and computational complexity.
+
+Developing a formal optimization framework for such waveforms represents an important direction for future work.
+
+Likewise, the present work deliberately avoids assumptions regarding a particular application domain.
+
+The proposed design principles are applicable to any communication system in which the receiver possesses only limited a priori knowledge of the transmitted waveform and must perform blind detection before synchronization and decoding.
+
+Future work should therefore focus on formal performance analysis, receiver algorithms, optimal parameter selection, and the mathematical characterization of minimum structural information required for computationally efficient blind detection.
