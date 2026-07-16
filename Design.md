@@ -55,4 +55,6 @@ This principle separates the tasks of
 
 allowing each stage to operate within a substantially smaller search space than would be required by a monolithic blind detector.
 
+> In conventional communication systems, receiver algorithms are designed to recover a known waveform. In the proposed approach, the waveform itself is designed to simplify the receiver's blind search.
+
 The following sections present a waveform architecture developed according to these principles.
