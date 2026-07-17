@@ -131,7 +131,7 @@ Scintillation may temporarily reduce the received signal below the detection thr
 
 This phenomenon affects detection probability but does not modify the underlying frequency geometry.
 
-For nearby Galactic sources, the scintillation decorrelation bandwidth is typically much larger than several hundred kilohertz.
+For typical nearby Galactic lines of sight at microwave frequencies, the scintillation decorrelation bandwidth is generally much larger than several hundred kilohertz, although exceptional directions through dense scattering regions may exhibit substantially narrower bandwidths.
 
 Therefore,
 
